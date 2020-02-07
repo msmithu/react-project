@@ -1,0 +1,54 @@
+.header{
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 9;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000 !important;
+}
+.service_wrap, .product_wrap{
+    padding: 50px 0;
+}
+.tab_box .active{
+    display: block !important;
+}
+.footer-wrap{
+    background: #000;
+    text-align: center;
+    padding: 15px;
+}
+.add-task-wrap{
+  border: 1px solid #ccc;
+}
+.green-icon{
+  width: 40px !important;
+  height: 40px;
+  border-radius: 100%;
+  line-height: 1.3;
+}
+.file-attach{
+  position: relative;
+  border-radius: 50px;
+  height: 40px; 
+  width: 40px;  
+}
+.file-attach input[type=file]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer !important;
+  width: 100%;
+  height: 100%;
+}
+.post-btn{
+  color: black !important;
+  border-radius: 50px !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+}
